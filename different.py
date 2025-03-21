@@ -26,7 +26,7 @@ def get_llm_response(prompt, model="mixtral-8x7b-32768"):
 
 # Main Streamlit app
 def main():
-    st.title("Resume Analyzer with Groq AI")
+    st.title("Resume Analyzer")
     st.write("Upload your resume (PDF) and optionally a job description to get expert feedback and a suitability score.")
 
     # Tabs for different functionalities
