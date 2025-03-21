@@ -15,7 +15,7 @@ def extract_text_from_pdf(pdf_file):
     return text
 
 # Function to get LLM response from Groq
-def get_llm_response(prompt, model="mixtral-8x7b-32768"):
+def get_llm_response(prompt, model="llama-3.3-70b-versatile"):
     response = client.chat.completions.create(
         model=model,
         messages=[{"role": "user", "content": prompt}],
